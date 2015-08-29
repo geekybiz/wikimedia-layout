@@ -1,1 +1,79 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.welcome {
+  text-align: right;
+}
+
+.rigWrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.rig {
+  list-style: none;
+  font-size: 0px;
+  margin-left: -2.5%;
+}
+
+ul.rig li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 2.5% 2.5%;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+ul.rig li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+
+ul.rig.columns-4 li {
+  width: 22.5%; /*This value + 2.5 should be 25 */
+}
+
+li {
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  border-top: solid 1px;
+}
+
+footer li {
+  display: inline-flex;
+  font-size: 13px;
+  font-family: sans-serif;
+  height: 0px;
+}
